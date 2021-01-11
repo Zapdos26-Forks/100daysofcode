@@ -1,38 +1,24 @@
-#from art import logo
-
+from art import logo
 from replit import clear
 import sys
-
-# Calculator
-# Add
 
 
 def add(n1, n2):
     return n1 + n2
 
-# Subtract
-
 
 def subtract(n1, n2):
     return n1 - n2
-
-# Multiply
 
 
 def multiply(n1, n2):
     return n1 * n2
 
 
-3
-
-# Divide
-
-
 def divide(n1, n2):
     return n1 / n2
 
 
-# Dictionary
 operations = {
     "+": add,
     "-": subtract,
@@ -42,7 +28,7 @@ operations = {
 
 
 def calculator():
-    # print(logo)
+    print(logo)
 
     num1 = float(input("What is the first number?\n"))
     for symbol in operations:
