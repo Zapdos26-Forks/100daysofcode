@@ -13,8 +13,7 @@ if __name__ == "__main__":
     guessed_states = []
 
     while len(guessed_states) < 50:
-        answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
-                                        prompt="What's another state's name?").title()
+        answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States Correct", prompt="What's another state's name?").title()
         if answer_state == "Exit":
                 missing_states = []
                 for state in all_states:
